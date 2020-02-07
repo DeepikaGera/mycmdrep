@@ -7,7 +7,7 @@ api = Api(app)
 
 class HelloWorld(Resource):
     def get(self):
-        return {'hello': 'world from ultrahook'}
+        return {'hello123456789876': 'world from ultrahook'}
 
 api.add_resource(HelloWorld, '/')
 
